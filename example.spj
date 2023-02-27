@@ -1,0 +1,37 @@
+Nech faktoriál je funkcia (
+	Ak n je menej ako 0, tak (
+		Vráť -1.
+	), inak Ak n sa rovná 0, tak (
+		Vráť 1.
+	), inak (
+		Vráť vynásob n s funkčná hodnota funkcie faktoriál, pre od n odpočítaj 1.
+	).
+), definovaná pre n.
+Vypíš funkčná hodnota funkcie faktoriál, pre 5.
+
+
+Nech arr je nová inštancia triedy Pole, pre "Hello", "World" a "!".
+Pre každé i a value v objekte arr (
+	Vypíš spoj "arr[", i, "] = " a value.
+).
+
+
+Nech user je nová inštancia triedy trieda User obsahujúca
+	name, predvolene "John",
+	year, predvolene 2000 a
+	getAge, predvolene funkcia (
+		Vráť od 2023 odpočítaj hodnota vlastnosti "year" objektu tento objekt.
+	).
+Vypíš spoj "Vek užívateľa ", 
+	hodnota vlastnosti "name" objektu user, " je ",
+	funkčná hodnota funkcie hodnota vlastnosti "getAge" objektu user a ".".
+
+
+Nech makeAdder je funkcia (
+	Vráť funkcia ku y pripočítaj x, definovaná pre y.
+), definovaná pre x.
+
+Nech add3 je funkčná hodnota funkcie makeAdder, pre 3.
+Nech add5 je funkčná hodnota funkcie makeAdder, pre 5.
+Vypíš funkčná hodnota funkcie add3, pre 10.
+Vypíš funkčná hodnota funkcie add5, pre 10.

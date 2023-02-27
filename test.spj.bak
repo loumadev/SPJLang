@@ -1,0 +1,9 @@
+Nech a je 2. Nech b je -11. Nech c je 14.
+
+Nech D je od (umocni b na 2) odpočítaj (vynásob 4 s (vynásob a s c)).
+
+Nech x1 je vydeľ (ku -b pripočítaj (2-há odmocnina z D)) s (vynásob 2 s a).
+Nech x2 je vydeľ (od -b odpočítaj (2-há odmocnina z D)) s (vynásob 2 s a).
+
+Vypíš x1.
+Vypíš x2.

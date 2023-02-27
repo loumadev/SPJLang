@@ -1,0 +1,191 @@
+<statement>:
+	Nech <id> je <expr>.
+	Vráť <expr>.
+	ak <expr>, tak <statement>, inak <statement>
+	pokiaľ <expr>, tak <statement>.
+	pre každé <id> a <id> v objekte <expr> <statement>.
+	<expr>.
+	.
+
+<expr>:
+	ku <expr> pripočítaj <expr>
+	od <expr> odpočítaj <expr>
+	vynásob <expr> s <expr> 
+	vydeľ <expr> s <expr>
+	umocni <expr> na <expr>
+
+	PLUS <expr>
+	MINUS <expr>
+
+	<expr> sa rovná <expr>
+	<expr> je viac ako <expr>
+	<expr> je menej ako <expr>
+	<expr> je viac alebo sa rovná <expr>
+	<expr> je menej alebo sa rovná <expr>
+	nie je pravda, že <expr>
+
+	1-vá odmocnina z <expr>
+	2-há odmocnina z <expr>
+	3-tia odmocnina z <expr>
+	<expr>-tá odmocnina z <expr>
+	
+	nastav <accessor> na <expr>
+
+	importuj modul <expr>
+	exportuj <expr> ako <expr>
+
+	funckia <expr>
+	funckia <expr>, definovaná pre <args>
+	funkčná hodnota funckie <expr>
+
+	typ <expr> -> "string", "number", "boolean", "function", "object", "undefined"
+	vypíš <expr>
+	[<expr>]
+
+	trieda obsahujúca <parameter_list>
+	trieda <id> obsahujúca <parameter_list>
+	trieda rozširujúca triedu <expr>, obsahujúca <parameter_list>
+	trieda <id> rozširujúca triedu <expr>, obsahujúca <parameter_list>
+
+	nová inštancia triedy <expr>
+	nová inštancia triedy <expr>, pre <args>
+
+	<lit>
+	<accessor>
+	L_PAREN <expr> R_PAREN
+
+<accessor>:
+	1-vý prvok poľa <expr>
+	2-hý prvok poľa <expr>
+	3-tí prvok poľa <expr>
+	<expr>-tý prvok poľa <expr>
+
+	vlastnoť <expr> objektu <expr>
+
+	<id>
+	
+<statement_without_period>:
+	Ak <expr>, tak <statement_without_period>, inak <statement_without_period>
+	L_PAREN <block_statement> R_PAREN
+	<statement>
+
+<block_statement>:
+	<statement_without_period>
+	<statement_without_period> <block_statement>
+
+1 + 2 * 3
+(1 + (2 * 3))
+
+
+ku 1 pripočítaj ku 2 pripočítaj 3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<expr>:
+	<term> + <expr>
+	<term> - <expr>
+	<term>
+
+<term>:
+	<factor> * <factor> 
+	<factor> / <factor> 
+	<factor>
+
+<factor>:
+	<lit>
+	<id>
+	(<expr>)
+
+
+1 / 2 * 3 + 4
+
+
+
+(1) / (2) 
+
+
+
+
+
+
+
+<expr>:
+	<expr> + <expr>
+	<expr> - <expr>
+	<expr> * <expr> 
+	<expr> / <expr>
+	<lit>
+	<id>
+	(<expr>)
+
+
+
+1 + 2 * 3
+(1 + (2 * 3))
+
+1 / 2 * 3 + 4
+1 / (2 * (3 + 4))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<statement>:
+	Nech <id> je <expr>.
+#	Ak <expr> je <expr>, tak <expr>.
+#	Ak <expr> je <expr>, tak (<statement>).
+	<expr>.
+	
+#<e2>
+#	<expr>
+#	<e2>, <expr>
+
+<expr>:
+	ku <expr> pripočítaj <expr>
+	od <expr> odpočítaj <expr>
+	vynásob <expr> s <expr> 
+	vydeľ <expr> s <expr>
+	nastav <id> na <expr>
+	funkčná hodnota funckie <expr>
+#	<e2> a <expr>
+
+	<lit>
+	<var>
+	(<expr>)
+
+
+1 + 2 * 3
+(1 + (2 * 3))
+
+
+ku 1 pripočítaj ku 2 pripočítaj 3

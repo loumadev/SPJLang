@@ -1,0 +1,119 @@
+Nech ArrayIterator je
+    trieda ArrayIterator obsahujúca
+        dĺžka, predvolene 0 a
+        iterátor, predvolene (funkcia (
+            Nech that je tento objekt.
+
+            Vráť nová inštancia triedy trieda obsahujúca
+                index, predvolene 0 a
+                ďalší, predvolene funkcia (
+                    Nech index je hodnota vlastnosti "index" objektu tento objekt.
+                    Nech dĺžka je hodnota vlastnosti "dĺžka" objektu that.
+
+                    Ak index je viac alebo sa rovná dĺžka, tak (
+                        Vráť nedefinovaná hodnota.
+                    )
+
+                    Nech x je hodnota vlastnosti index objektu that.
+                    nastav hodnota vlastnosti "index" objektu tento objekt na (ku index pripočítaj 1).
+                    
+                    Vráť nová inštancia triedy Pole, pre index a x.
+                ).
+        )).
+
+
+Nech Argumenty je
+    trieda Argumenty rozširujúca triedu ArrayIterator, obsahujúca
+        dĺžka, predvolene 0.
+
+exportuj Argumenty ako "Argumenty".
+
+
+Nech Pole je
+    trieda Pole rozširujúca triedu ArrayIterator, obsahujúca
+        konštruktor, predvolene (funkcia (
+            funkčná hodnota funkcie nadtrieda.
+            
+            Nech i je 0.
+            Nech dĺžka je hodnota vlastnosti "dĺžka" objektu argumenty funkcie.
+
+            Pokiaľ i je menej ako dĺžka, tak (
+                Nech x je hodnota vlastnosti i objektu argumenty funkcie.
+                funkčná hodnota funkcie hodnota vlastnosti "push" objektu tento objekt, pre x.
+                nastav i na (ku i pripočítaj 1).
+            ).
+        )),
+        dĺžka, predvolene 0,
+        push, predvolene (funkcia (
+            Nech index je hodnota vlastnosti "dĺžka" objektu tento objekt.
+            nastav hodnota vlastnosti index objektu tento objekt na x.
+            nastav hodnota vlastnosti "dĺžka" objektu tento objekt na (ku index pripočítaj 1).
+            Vráť tento objekt.
+        ), definovaná pre x) a
+        pop, predvolene funkcia (
+            Nech index je (od hodnota vlastnosti "dĺžka" objektu tento objekt odpočítaj 1).
+            Nech x je (hodnota vlastnosti index objektu tento objekt).
+            nastav hodnota vlastnosti index objektu tento objekt na nedefinovaná hodnota.
+            nastav hodnota vlastnosti "dĺžka" objektu tento objekt na index.
+            Vráť x.
+        ).
+
+exportuj Pole ako "Pole".
+
+
+Nech Číslo je
+    trieda Číslo obsahujúca
+        hodnota, predvolene 0 a
+        konštruktor, predvolene (funkcia (
+
+            Ak typ arg sa rovná "číslo", tak (
+                nastav hodnota vlastnosti "hodnota" objektu tento objekt na arg.
+            ), inak Ak typ arg sa rovná "reťazec", tak (
+                Nech str je nová inštancia triedy Reťazec, pre arg.
+
+
+            ).
+        ), definovaná pre arg).
+
+Nech Reťazec je
+    trieda Reťazec obsahujúca
+        dĺžka, predvolene 0,
+        hodnota, predvolene "",
+        konštruktor, predvolene (funkcia (
+            Nech arg je hodnota vlastnosti 0 objektu argumenty funkcie.
+
+            Nech str je "".
+
+            Ak typ arg sa rovná "reťazec", tak nastav str na arg.
+
+            Nech ch je nedefinovaná hodnota.
+            Nech i je 0.
+
+            Pokiaľ nastav ch na hodnota vlastnosti i objektu arg, tak (
+                nastav hodnota vlastnosti i objektu tento objekt na ch.
+                nastav i na (ku i pripočítaj 1).
+            ).
+
+            nastav hodnota vlastnosti "dĺžka" objektu tento objekt na i.
+            nastav hodnota vlastnosti "hodnota" objektu tento objekt na arg.
+        )) a
+        kód_znaku_na, predvolene (funkcia (
+            Nech len je hodnota vlastnosti "dĺžka" objektu tento objekt.
+			Nech ch je hodnota vlastnosti index objektu tento objekt.
+
+            Ak len je menej alebo sa rovná 0, tak (
+                Vráť nedefinovaná hodnota.
+            )
+
+			Nech code je 0.
+
+			Vypíš nie je pravda, že code sa rovná ch.
+
+			Pokiaľ nie je pravda, že code sa rovná ch, tak (
+				nastav code na (ku code pripočítaj 1).
+			).
+            
+			Vráť code.
+        ), definovaná pre index).
+        
+exportuj Reťazec ako "Reťazec".

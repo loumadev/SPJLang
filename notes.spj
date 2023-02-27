@@ -1,0 +1,153 @@
+Nech f je funckia (
+	Vráť 10.
+)
+
+Vypíš funkčná hodnota funkcie f.
+
+
+
+Nech f2 je funckia ku vynásob x s y pripočítaj z, definovaná pre x, y a z.
+
+Nech výsledok je funkčná hodnota funkcie f2, pre 10, 20 a 30.
+
+Vypíš výsledok.
+
+
+
+Nech f3 je funckia (
+	Nech xx je vynásob x s x.
+	Nech yy je vynásob y s y.
+	Nech zz je vynásob z s z.
+
+	Nech sum je ku xx pripočítaj ku yy pripočítaj zz.
+
+	Vráť 2-há odmocnina z sum.
+), definovaná pre x, y a z.
+
+Vypíš funkčná hodnota funkcie f3, pre 10, 20 a 30.
+
+
+
+Vypíš funkčná hodnota funkcie funckia ku x pripočítaj y, definovaná pre x a y, pre 10 a 20.
+Vypíš funkčná hodnota funkcie 15, pre 10 a 20.
+
+Nech in je vypiš .
+
+Nech a je pravda.
+
+Ak x je 10, tak (y = 10)
+Ak x je 10, tak (y = 10.)
+
+Ak x je 10, tak y = 10, w = 20.
+Ak x je 10, tak (
+	y = 10,
+	w = 20
+).
+Ak x je 10, tak (
+	Nech y je 10.
+	nastav x na 5.
+)
+
+Nech a je pole prvkov 1, 2 a 3.
+1-vý prvok poľa a.
+nastav 1-vý prvok poľa a na 10.
+
+nastav (a + 5)-tý prvok poľa a na 8.
+
+
+
+Nech obj je objekt obsahujúci a, predvolene 10.
+
+Nech obj2 je objekt obsahujúci a, b, c a func, predvolene 10, 20, 30 a funckia (
+	Vráť ku x pripočítaj hodnota vlastnosti a.
+), definovaná pre x.
+
+#new instance
+Nech inst je nová inštancia objektu obj.
+
+#instance method call
+funkčná hodnota vlastnosť func inštancie inst, pre 10 a 20.
+
+#instance property set
+nastav vlastnosť x inštancie inst na 10.
+
+Nech dict je nová inštancia objektu objekt s vlastnosťami x a y, predvolene 10 a 20.
+
+typ dict.
+inštancia dict
+
+Nech dict je nová inštancia objektu objekt.
+nastav vlastnosť x inštancie dict na 10.
+nastav vlastnosť y inštancie dict na 20.
+
+funckia (...)
+
+1.
+1 a 2.
+1, 2 a 3.
+1, 2, 3 a 4.
+
+
+
+
+
+
+
+
+Nech a je 10, 20, 30.
+Nech a je (10, 20, 30).
+nastav b na 10, 20, 30.
+nastav b na (10, 20, 30).
+
+
+
+
+
+
+# class definition
+Nech Pole je trieda Pole.
+
+# class property definition
+nastav vlastnosť length triedy Pole na 0.
+
+# class method definition
+nastav hodnota vlastnosti push triedy Pole na funckia (
+	nastav vlastnosť hodnota vlastnosti length na x.
+	nastav vlastnosť length na (ku hodnota vlastnosti length pripočítaj 1).
+	Vráť x.
+), definovaná pre x.
+
+
+# class instance
+Nech pole je nová inštancia triedy Pole.
+
+# class instance method call
+funkčná hodnota vlastnosť push objektu pole, pre 10.
+
+
+
+
+# class definition
+Nech Pole je
+	trieda Pole obsahujúca
+		konštruktor, predvolene funckia (
+			
+		), definovaná pre x,
+		length, predvolene 0,
+		push, predvolene funckia (
+			nastav (vlastnosť (hodnota vlastnosti length tohto objektu) tohto objektu) na x.
+			nastav (vlastnosť length tohto objektu) na (ku hodnota vlastnosti length pripočítaj 1).
+			Vráť x.
+		), definovaná pre x a
+		pop, predvolene funckia (
+			Nech x je (vlastnosť (hodnota vlastnosti length tohto objektu) tohto objektu).
+			nastav (vlastnosť (hodnota vlastnosti length tohto objektu) tohto objektu) na nedefinovaná hodnota.
+			nastav (vlastnosť length tohto objektu) na (od hodnota vlastnosti length odpočítaj 1).
+			Vráť x.
+		).
+
+# class instance
+Nech pole je nová inštancia triedy Pole.
+
+# class instance method call
+funkčná hodnota funckie vlastnosť push objektu pole, pre 10.
